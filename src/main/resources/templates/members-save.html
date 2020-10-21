@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments.html :: head"></head>
+<body>
+<form>
+    <div class="form-group">
+        <label for="username">회원이름</label>
+        <input type="text" class="form-control" id="username">
+    </div>
+</form>
+<a href="/" role="button" class="btn btn-secondary">취소</a>
+<button type="button" class="btn btn-primary" id="btn-save">등록</button>
+
+<div th:replace="fragments.html :: footer"></div>
+</body>
+</html>

@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor @NoArgsConstructor
 public class UpdateMemberDto {
 
+    private Long id;
     private String username;
 
 }
